@@ -165,7 +165,7 @@ The generated images will be saved in the specified `output_dir`.
 This project is based on the following works:
 - **[Stable Diffusion](https://github.com/CompVis/stable-diffusion)**: High-quality text-to-image generation model.
 - **[Zero-1-to-3 (Zero123)](https://github.com/cvlab-columbia/zero123)**: A zero-shot model for 3D-consistent image synthesis from single-view images, used for **rigid mask editing**.
-- **[MasaCtrl](https://example.com)**: Mutual Self-Attention Control for fine-grained image generation and **non-rigid mask editing**.
+- **[MasaCtrl](https://github.com/TencentARC/MasaCtrl)**: Mutual Self-Attention Control for fine-grained image generation and **non-rigid mask editing**.
 
 ---
 
