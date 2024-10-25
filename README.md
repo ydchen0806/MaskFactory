@@ -83,10 +83,11 @@ models/
 3. **MasaCtrl Weights**:
    - **MasaCtrl** is utilized for non-rigid editing. If you have pre-trained **MasaCtrl** weights, place them in the `models/` directory:
 
+```plaintext
 models/
     └── masactrl/
         └── masactrl_model.pth
-
+```
 ---
 
 ## Code Base
