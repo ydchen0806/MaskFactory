@@ -28,6 +28,7 @@ To address these challenges, we introduce **Mask Factory**, which combines both 
 
 To train the model effectively, you need a dataset structured as follows:
 
+```plaintext
 dataset/
 ├── images/
 │   ├── image1.png
@@ -37,7 +38,7 @@ dataset/
     ├── mask1.png
     ├── mask2.png
     └── ...
-
+```
 - **images/**: Contains the real-world images.
 - **masks/**: Contains the corresponding ground truth segmentation masks for each image.
 
@@ -60,17 +61,21 @@ This project is based on **Stable Diffusion v1.5**. You can download the pre-tra
 
 1. Download the weights and place them in a folder called `models/`:
 
+```plaintext
 models/
-    └── stable-diffusion-v1-5/
-        └── diffusion_pytorch_model.bin
+└── stable-diffusion-v1-5/
+    └── diffusion_pytorch_model.bin
+```
 
 2. **Zero123 Weights**: 
    - You can download the pre-trained **Zero123** model from the [official repository](https://github.com/cvlab-columbia/zero123).
    - Place the downloaded weights in the `models/` directory:
 
+```plaintext
 models/
-    └── zero123/
-        └── zero123_model.pth
+└── zero123/
+    └── zero123_model.pth
+```
 
 3. **MasaCtrl Weights**:
    - **MasaCtrl** is utilized for non-rigid editing. If you have pre-trained **MasaCtrl** weights, place them in the `models/` directory:
@@ -85,20 +90,22 @@ models/
 
 The repository is organized as follows:
 
+```plaintext
 .
 ├── dataset/                     # Store your dataset here
-├── models/                      # Pre-trained models (Stable Diffusion, Zero123, MasaCtrl)
+├── models/                      # Pre-trained models
 ├── output_images/              # Generated samples will be saved here
 ├── train.py                    # Script to run the training process
 ├── infer.py                    # Script for inference
-├── masactrl/                   # Contains the MasaCtrl implementation for non-rigid mask editing
-│   ├── masactrl.py            # Main MasaCtrl implementation
-│   └── masactrl_utils.py      # Utility functions for MasaCtrl
-├── zero123/                    # Contains the Zero123 implementation for rigid mask editing
-│   ├── zero123.py             # Main Zero123 implementation
-│   └── zero123_utils.py       # Utility functions for Zero123
-├── README.md                   # This README file
-└── requirements.txt            # Python packages required to run the project
+├── masactrl/                   # Contains the MasaCtrl implementation
+│   ├── masactrl.py
+│   └── masactrl_utils.py
+├── zero123/                    # Contains the Zero123 implementation
+│   ├── zero123.py
+│   └── zero123_utils.py
+├── README.md
+└── requirements.txt
+```
 
 ### Key Components:
 1. **`train.py`**: The script for training the Mask Factory pipeline using both rigid (Zero123) and non-rigid (MasaCtrl) editing techniques.
