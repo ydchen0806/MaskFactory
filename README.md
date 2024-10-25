@@ -1,5 +1,5 @@
 # MaskFactory
-This repository provides the implementation of the NeurIPS24 paper **Mask Factory**, a novel approach for generating high-quality synthetic datasets for **Dichotomous Image Segmentation (DIS)** tasks. This method combines **Zero-1-to-3 (Zero123)** for rigid mask editing and **MasaCtrl** for non-rigid mask editing to generate diverse and accurate synthetic masks, which are then used to produce corresponding high-resolution images.
+This repository provides the implementation of the NeurIPS24 paper **Mask Factory**, a novel approach for generating high-quality synthetic datasets for **Dichotomous Image Segmentation (DIS)** tasks. This method combines rigid mask editing and non-rigid mask editing to generate diverse and accurate synthetic masks, which are then used to produce corresponding high-resolution images.
 
 > **MaskFactory: Towards High-quality Synthetic Data Generation For Dichotomous Image Segmentation**  
 > *Haotian Qian†, Yinda Chen†, Shengtao Lou, Fahad Shahbaz Khan, Xiaogang Jin, Deng-Ping Fan\*
