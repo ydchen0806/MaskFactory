@@ -177,7 +177,7 @@ If you find our work helpful, please consider citing:
   title={MaskFactory: Towards High-quality Synthetic Data Generation for Dichotomous Image Segmentation},
   author={Qian, Haotian and Chen, Yinda and Lou, Shengtao and Khan, Fahad and Jin, Xiaogang and Fan, Deng-Ping},
   booktitle={NeurIPS},
-  years={2024}
+  year={2024}
 }
 ```
 
