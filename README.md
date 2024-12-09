@@ -168,7 +168,20 @@ This project is based on the following works:
 - **[MasaCtrl](https://github.com/TencentARC/MasaCtrl)**: Mutual Self-Attention Control for fine-grained image generation and **non-rigid mask editing**.
 
 ---
+## Citation
 
+If you find our work helpful, please consider citing:
+
+```bibtex
+@inproceedings{qianmaskfactory,
+  title={MaskFactory: Towards High-quality Synthetic Data Generation for Dichotomous Image Segmentation},
+  author={Qian, Haotian and Chen, Yinda and Lou, Shengtao and Khan, Fahad and Jin, Xiaogang and Fan, Deng-Ping},
+  booktitle={NeurIPS},
+  years={2024}
+}
+```
+
+---
 ## Contact
 
 For any questions or issues, feel free to reach out:
