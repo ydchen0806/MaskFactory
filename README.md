@@ -11,6 +11,16 @@ This repository provides the implementation of the NeurIPS24 paper [Mask Factory
 
 ---
 
+## 🚀 News
+
+- **2024.10** 🎉 Our paper has been accepted by **NeurIPS 2024**!  
+- **2024.11** 💻 We have open-sourced the **core code** of MaskFactory!  
+- **2024.12** 📄 The **arXiv version** of our paper is now available: [arxiv:2412.19080](https://arxiv.org/pdf/2412.19080)  
+- **2025.02** 📦 The **generated dataset** is now open-source on Hugging Face: [MaskFactory Dataset](https://huggingface.co/datasets/cyd0806/MaskFactory/tree/main)  
+- **Future Plans** 🔍 We are in discussions with foundational model authors to obtain permission for **secondary distribution** of relevant models, enabling users to run MaskFactory more conveniently. Stay tuned!  
+
+---
+
 ## Introduction
 
 **Dichotomous Image Segmentation (DIS)** is a critical task in various computer vision applications, requiring highly precise annotations. Traditional dataset creation methods are labor-intensive, costly, and require extensive domain expertise. Although using synthetic data for DIS is a promising solution, current generative models struggle with issues such as:
