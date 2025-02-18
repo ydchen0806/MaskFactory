@@ -17,7 +17,8 @@ This repository provides the implementation of the NeurIPS24 paper [Mask Factory
 - **2024.11** 💻 We have open-sourced the **core code** of MaskFactory!  
 - **2024.12** 📄 The **arXiv version** of our paper is now available: [arxiv:2412.19080](https://arxiv.org/pdf/2412.19080)  
 - **2025.02** 📦 The **generated dataset** is now open-source on Hugging Face: [MaskFactory Dataset](https://huggingface.co/datasets/cyd0806/MaskFactory/tree/main)  
-- **Future Plans** 🔍 We are in discussions with foundational model authors to obtain permission for **secondary distribution** of relevant models, enabling users to run MaskFactory more conveniently. Stay tuned!  
+- **2025.02** 🏆 The **official NeurIPS version** of our paper is now published: [NeurIPS 2024 Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/file/7aad0cdc7e140778ad944f17a266e1bc-Paper-Conference.pdf)  
+- **Future Plans** 🔍 We are in discussions with foundational model authors to obtain permission for **secondary distribution** of relevant models, enabling users to run MaskFactory more conveniently. Stay tuned!
 
 ---
 
